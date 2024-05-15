@@ -20,7 +20,7 @@ if __name__ == '__main__':
     #file_dir, file_name = os.path.split(file_path)
     data_file = pd.read_excel(file_path)
     data_names = list(data_file.columns)
-    
+
     input_x = list(data_file[data_names[0]])
     data_x = np.array(input_x)
 
